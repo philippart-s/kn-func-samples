@@ -7,4 +7,4 @@
  - test remotely: `curl http://say-message.knative-func-samples.162.19.64.180.sslip.io -H "Content-Type:application/json" -d "{\"message\": \"👋, Hello World\"}\""`
  - update the function
  - redeploy it: `sudo env "PATH=$PATH" env "KUBECONFIG=$KUBECONFIG" func deploy -n knative-func-samples`
- - remove the function: `func delete hello-world-from-quarku -n knative-func-samples`
+ - remove the function: `func delete say-message -n knative-func-samples`
