@@ -2,8 +2,8 @@ specVersion: 0.34.0
 name: say-message
 runtime: quarkus
 registry: wilda
-image: docker.io/wilda/say-message:latest
-imageDigest: sha256:d46bda18082011c24d09517f3f837e9e7230562d20259d8743d5007e29e8b041
+image: wilda/say-message:latest
+imageDigest: sha256:3c94a9aacdb56fbdc4eb65c79f9e43225fa5d087a1cab323f3468379a362781b
 created: 2023-01-22T18:06:01.573008442Z
 invocation:
   format: http

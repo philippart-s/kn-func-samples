@@ -1,6 +1,6 @@
 ### Use Knative functions
  - create a function: `func create -l quarkus say-message -n knative-func-samples`
- - build and run the function locally: `sudo env "PATH=$PATH" func run -n knative-func-samples --registry=wilda`
+ - build and run the function locally: `sudo env "PATH=$PATH" func run -n knative-func-samples --build=false --registry=wilda`
  - test locally: `sudo env "PATH=$PATH" func invoke -n knative-func-samples` or `curl localhost:8080 -H "Content-Type:application/json" -d "{\"message\": \"👋, Hello World\"}\""`
  - create a namespace: `kubectl create ns knative-func-samples`
  - deploy the function on kuberntes: `sudo env "PATH=$PATH" env "KUBECONFIG=$KUBECONFIG" func deploy --build=false -n knative-func-samples`
