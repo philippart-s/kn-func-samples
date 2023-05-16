@@ -17,7 +17,7 @@ public class Function {
 
         // Add business logic here
 
-        return new Output("Updated! " + input.getMessage());
+        return new Output(input.getMessage());
     }
 
 }
