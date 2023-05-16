@@ -3,7 +3,7 @@ name: say-message
 runtime: quarkus
 registry: wilda
 image: wilda/say-message:latest
-imageDigest: sha256:f72ae4f4787746af7d6c63f33b6fdec721dc6a182328be2b14e5c6c3027100c2
+imageDigest: sha256:839ed67b7a18534ae667fba452b0d8727fd5fe75737e297d70c1750ce2359271
 created: 2023-01-22T18:06:01.573008442Z
 invocation:
   format: http
